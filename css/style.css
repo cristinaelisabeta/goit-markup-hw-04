@@ -16,11 +16,13 @@ body {
 .logo {
     display: inline-block;
     margin-left: 215px;
-    margin-bottom: 32px;
-    margin-top: 32px;
+    margin-bottom: 25px;
+    margin-top: 24px;
 }
 .main-menu {
     display: inline-block;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 .main-menu-contacts {
     display: inline-block;   
@@ -47,6 +49,14 @@ body {
    width: 1600px;
    height: 80px;
 }
+.social-icons {
+    width: 20px;
+    height: 20px;
+    color: #000000;
+}
+.link1:hover {
+    color: #2196F3;
+}
 .main-menu-contacts {
     list-style-type: none;
 }
@@ -67,8 +77,7 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    color: #2196F3;
-    fill: solid;
+    color: #000000;
     text-align: left;
     vertical-align: top;
     margin-right: 25px;
@@ -85,10 +94,14 @@ body {
     margin-left: 542px;
     display: inline-block;
 }
-.all {
+.background-button:hover {
     background-color: #2196F3;
+    color: #FFFFFF;
+}
+.all {
+    background-color: #F5F4FA;
     border-radius: 4px;
-    border: #2196F3;
+    border: #F5F4FA;
     font-family: roboto;
     font-weight: 500;
     font-size: 16px;
@@ -96,7 +109,7 @@ body {
     text-align: center; 
     vertical-align: center;
     fill: solid;
-    color:#FFFFFF; 
+    color:#212121; 
     display: center;
     margin-top: 30px;
     width: 64px;
@@ -276,7 +289,7 @@ body {
     fill: solid;
     text-align: left;
     vertical-align: top;
-    color: #2196F3;
+    color: #757575;
     margin-left: 100px;
 }
 .tel1 {
@@ -288,7 +301,9 @@ body {
     margin-right: 215px;  
 }
 .title-section {
+    background: #2F303A66;
     background-color: #2F303A;
+    background-image: url();
     width: 1600px;
     height: 600px;
     top: 80px;
