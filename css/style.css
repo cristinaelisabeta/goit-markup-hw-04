@@ -49,11 +49,6 @@ body {
    width: 1600px;
    height: 80px;
 }
-.social-icons {
-    width: 20px;
-    height: 20px;
-    color: #000000;
-}
 .link1:hover {
     color: #2196F3;
 }
@@ -404,6 +399,16 @@ body {
     text-align: center;
     margin-bottom: 50px;
     margin-left: auto;
+}
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.social-icons {
+    width: 20px;
+    height: 20px;
+    color: #AFB1B8;
 }
 .our-section {
     width: 1600px;
