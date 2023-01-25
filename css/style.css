@@ -401,7 +401,7 @@ body {
     margin-left: auto;
 }
 .social-list {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     gap: 10px;
 }
