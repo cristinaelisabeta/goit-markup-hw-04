@@ -401,16 +401,27 @@ body {
     margin-left: auto;
 }
 .social-list {
-    display: inline-block;
+    display: flex;
     justify-content: center;
     gap: 10px;
 }
 .social-icons {
     width: 20px;
     height: 20px;
+    fill: currentColor;
 }
 .social-link {
-
+background-color: #FFFFFF;
+border-radius: 50%;
+width: 44px;
+height: 44px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #000000;
+}
+.social-link:hover {
+    color: #2196F3;
 }
 .our-section {
     width: 1600px;
