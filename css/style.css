@@ -411,14 +411,14 @@ body {
     fill: currentColor;
 }
 .social-link {
-background-color: #FFFFFF;
+background-color:#FFFFFF;
 border-radius: 50%;
 width: 44px;
 height: 44px;
 display: flex;
 justify-content: center;
 align-items: center;
-color: #000000;
+color: #AFB1B8;
 }
 .social-link:hover {
     color: #2196F3;
@@ -617,4 +617,16 @@ color: #000000;
 .page-section2 {
     background-color: #2F303A;
 }
+.social-link1 {
+    background-color: #FFFFFF1A;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    }
+    .social-link1:hover {
+        color: #2196F3;
 
