@@ -408,7 +408,9 @@ body {
 .social-icons {
     width: 20px;
     height: 20px;
-    color: #AFB1B8;
+}
+.social-link {
+
 }
 .our-section {
     width: 1600px;
