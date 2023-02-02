@@ -287,6 +287,9 @@ body {
     color: #757575;
     margin-left: 100px;
 }
+.mail1::before {
+    
+}
 .tel1 {
     font-family: roboto;
     font-style: 400;
