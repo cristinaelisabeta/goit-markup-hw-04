@@ -9,27 +9,32 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     </head>
     <body>
-    <div class="container">
         <header class="page-header">  
             <nav>
-            <div class="logo">
-                <ul class="link unstyled-list"><a class="web-studio link page-head " href="WebStudio">
-                 <span class="logo-highlight">Web</span>Studio</a>
+        <section class="section">
+            <div class="container">
+        <ul class="grid__logo"><a class="grid__logo__studio" href="WebStudio"></a>
+            <span class="logo__highlight">Web</span>Studio</a>
                 </ul>
             </div>
-            <div class="main-menu">
-                <ul class="link unstyled-list">
-                    <li class="main-menu-item"><a class="studio link1 link" href="studio">Studio</a></li>
-                    <li class="main-menu-item"><a class="portofolio link1 link" href="portofolio">Portofolio</a></li>
-                    <li class="main-menu-item"><a class="contacts link1 link" href="contacts">Contacts</a></li>
-                </ul> 
+        </section>
+        <section class="page__section__list">
+            <div class="container">
+        <ul class="grid__item">
+                    <li class="grid__item__menu"><a class="grid__studio link1" href="studio">Studio</a></li>
+                    <li class="grid__item__menu"><a class="grid__portofolio link1" href="portofolio">Portofolio</a></li>
+                    <li class="grid__item__menu"><a class="grid__contacts link1" href="contacts">Contacts</a></li>
+        </ul> 
             </div>
-            <div class="main-menu-contacts">       
-                <ul class="link unstyled-list">
-                    <li class="main-menu-item"><a class="mail1 link1 link" href="info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="main-menu-item"><a class="tel1 link1 link" href="+1 212-772-4150">+1 212-772-4150</a></li>
-                </ul>
+        </section>
+        <section class="page__section__link">
+            <div class="container__contacts">
+        <ul class="grid__item__contacts">
+                    <li class="grid__item__menu"><a class="grid__mail1 link1 link" href="info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="grid__item__menu"><a class="grid__tel1 link1 link" href="+1 212-772-4150">+1 212-772-4150</a></li>
+        </ul>
             </div>
+        </section>
             </nav>
         </header>
     </div> 
@@ -48,85 +53,90 @@
                 </div>
             </section>
         </div>
-        <ul class="unstyled-list social-list">
-            <li>
-            <a href="a" target="_blank" class="social-link">
-             <svg class="social-icons">
-             <use href="./images/icomoon/symbol-defs.svg#icon-astronaut"></use>
+        <section class="technology__section">
+            <div class="container__technology">
+        <ul class="grid">
+            <li class="grid__item">
+           <span class="grig__span">
+             <svg class="svg">
+             <use href="./images/icomoon/symbol-defs.svg#icon-antenna"></use>
              </svg>
-            </a>
+            </span>
+             <h2 class="grid__title">ATTENTION TO DETAILS</h2>
+             <p class="grid__paragraf">
+                   We go into all the details and processes <br>
+                   of your business to develop a <br>
+                   customized solution.
+               </p>
             </li>
-            <li>
-                <a href="a" target="_blank" class="social-link">
-                 <svg class="social-icons">
-                 <use href="./images/icomoon/symbol-defs.svg#icon-diagram"></use>
+            <li class="grid__item">
+                <span class="grig__span">
+                 <svg class="svg">
+                 <use href="./images/icomoon/symbol-defs.svg#icon-clock"></use>
                  </svg>
-                </a>
-            </li>
-            <li>
-                <a href="a" target="_blank" class="social-link">
-                <svg class="social-icons">
-                <use href="./images/icomoon/symbol-defs.svg#icon-clock"></use>
-                </svg>
-                </a>
-            </li>
-            <li>
-                <a href="a" target="_blank" class="social-link">
-                <svg class="social-icons">
-                <use href="./images/icomoon/symbol-defs.svg#icon-antenna"></use>
-                </svg>
-                </a>
-            </li>
-        </ul> 
-        <div class="container">
-        <section class="text-section">
-            <ul class="link unstyled-list">
-              <li class="attention"><h2>ATTENTION TO DETAILS</h2>
-              <p>
-                    We go into all the details and processes <br>
-                    of your business to develop a <br>
-                    customized solution.
-                </p></li> 
-                <li class="punctuality"><h2>PUNCTUALITY</h2>
-                <p>
+                </span>
+                 <h2 class="grid__title">PUNCTUALITY</h2>
+                <p class="grid__paragraf">
                     With us, you can feel safe and secure.<br>
                  An important principle of the company: <br>
                   respect your time and deadlines.
-                </p></li>
-                <li class="planning"><h2>PLANNING</h2>
-                 <p>
+                </p>
+            </li>
+            <li class="grid__item">
+                <span class="grig__span">
+                <svg class="svg">
+                <use href="./images/icomoon/symbol-defs.svg#icon-diagram"></use>
+                </svg>
+            </span>
+                <h2 class="grid__title">PLANNING</h2>
+                 <p class="grid__paragraf">
                     You will be able to observe and <br>
                     participate in every phase of solution <br>
                     development and implementation.
-                 </p></li> 
-                <li class="modern"><h2>MODERN TECHNOLOGIES</h2>
-                <p>
+                 </p>
+            </li>
+            <li class="grid__item">
+                <span class="grig__span">
+                <svg class="svg">
+                <use href="./images/icomoon/symbol-defs.svg#icon-astronaut"></use>
+                </svg>
+            </span>
+                <h2 class="grid__title">MODERN TECHNOLOGIES</h2>
+                <p class="grid__paragraf">
                     We use innovative tools to solve <br>
                     assigned tasks. It's time to simplify work <br>
                     processes.
-                </p></li>
-            </ul>  
-            </section> 
-        </div> 
-        <div class="container">
-        <section class="what-section">
-          <h3 class="what">What we do</h3>
-            <ul class="link unstyled-list">
-            <div class="img2-image">
-               <li><img height="294" width="370" src="images/img2.png"></li>
-            </div>
-            <div class="img-image"> 
-               <li><img height="294" width="370" src="images/img.png"></li> 
-            </div>
-            <div class="img1-image">
-               <li><img height="294" width="370" src="images/img (1).png"></li> 
-            </div>
-            </ul>
-        </section>
+                </p>
+            </li>
+        </ul>
         </div>
+    </section> 
+
+        <section class="section">
         <div class="container">
-            <section class="our-section">
-        <h3 class="our">Our Team</h3>
+          <h3 class="section__heading">What we do</h3>
+            <ul class="grid grid--three">
+               <li class="grid__item__heading">
+            <article class="product">
+            <img class="product__image" src="images/img2.png"/>
+            </article>
+            </li>
+            <li class="grid__item__heading">
+            <article class="product">
+                <img class="product__image" height="294" width="370" src="images/img.png">
+            </article>
+            </li> 
+            <li class="grid__item__heading">
+            <article class="product">
+                <img class="product__image" height="294" width="370" src="images/img (1).png">
+            </article>
+            </li> 
+            </ul>
+        </div>
+        </section>
+        <section class="section">
+            <div class="container">
+              <h3 class="section__heading">Our Team</h3>
             <ul class="unstyled-list">
         <div class="christopher-section">      
             <div class="christopher-image">
