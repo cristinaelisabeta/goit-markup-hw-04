@@ -15,6 +15,7 @@ body {
     padding: 2px;
     width: 1600px;
     height: 80px;
+    border-bottom: 1px;
  }
 img {
     display: block;
@@ -22,7 +23,6 @@ img {
     height: auto;
   }
 .container {
-    width: 1600px;
     display: inline-block;
     box-sizing: border-box;
 }
@@ -34,10 +34,12 @@ img {
     color: #000000;
     text-align: left;
     vertical-align: top;
+    margin-top: 24px;
+    margin-left: 215px;
+    display: flex;
 }
 .grid__logo__studio {
     display: inline-block;
-    margin-left: 215px;
     margin-bottom: 25px;
     margin-top: 24px;
 }  
@@ -45,42 +47,57 @@ img {
     color: #2196F3;  
 }
 .page__section__list {
-    display: flex;
-    gap: 1;
-    justify-content: space-between; 
+    display: inline-block;
     text-align: center;
  }
-
-.grid__item {
+.container__contacts {
     display: inline-block;
-    margin-top: 32px;
-    margin-bottom: 32px;
+}
+.grid__item__list {
+ margin-left: auto;
+ margin-right: 10px;
+ display: flex;
+ gap: 40px;   
 }
 .grid__item__menu {
-    display: inline-block;
-    margin-right: 25px;
-    margin-left: 25px;
+    display: list-item;
 }
 .link1:hover {
     color: #2196F3;
 }
 .grid__studio {
+    display: flex;
+    margin-top: 32px;
+    margin-right: 50px;
+    margin-bottom: 32px;
+    margin-left: 93px;
     font-family: roboto;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     color: #000000;
-    text-align: left;
-    vertical-align: top;
-    margin-right: 25px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link {
     text-decoration: none;
 }
-.main-menu-contacts {
+.grid__item__contacts {
     list-style-type: none;
+    display: flex;
+}
+.header__icon {
+    display: flex;
+    width: 16px;
+    height: 12px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;    
 }
 .grid__portofolio {
+    display: flex;
+    margin-top: 32px;
+    margin-right: 50px;
+    margin-bottom: 32px;
     font-family: roboto;
     font-weight: 500;
     font-size: 14px;
@@ -271,6 +288,10 @@ img {
     margin-right: 30px;
 }
 .grid__contacts {
+    display: flex;
+    margin-top: 32px;
+    margin-right: 330px;
+    margin-bottom: 32px;
     font-family: roboto;
     font-weight: 500;
     font-size: 14px;
@@ -283,7 +304,9 @@ img {
     display: inline-block;   
 }
 .grid__item__contacts {
-
+display: flex;
+margin-top: 32px;
+margin-left: 330px;
 }
 .grid__mail1 {
     font-family: roboto;
@@ -294,7 +317,9 @@ img {
     text-align: left;
     vertical-align: top;
     color: #757575;
-    margin-left: 100px;
+    margin-left: 40px;
+    display: flex;
+    gap: 10px;
 }
 .grid__mail1::after, :before {
    box-sizing: border-box; 
@@ -305,7 +330,8 @@ img {
     font-size: 14px;
     line-height: 1.14;
     color: #757575; 
-    margin-right: 215px;  
+    margin-right: 215px; 
+    gap: 10px; 
 }
 .title-section {
     background: #2F303A66;
@@ -363,7 +389,6 @@ img {
     display: inline-block;
     margin-top: 0; 
     margin-bottom: 94px;
-
 }
 .grid__item {
     flex-basis: calc(100% /4 - 16px);
@@ -374,7 +399,7 @@ img {
     margin-left: 8px;
     margin-bottom: 16px;
     }
-.grig__span {
+.grid__span {
     display: flex;
     background-color: #F5F4FA;
     justify-content: center;
@@ -412,24 +437,7 @@ height: 70px;
     padding: 0;
     box-sizing: border-box;
 }
-.attention {
-    display: inline-block;
-    margin-right: 30px;
-    margin-left: 215px;
-}
-.punctuality {
-    display: inline-block;
-    margin-right: 30px;
-}
-.planning {
-    display: inline-block;
-    margin-right: 30px;
-}
-.modern {
-    display: inline-block; 
-    margin-right: 30px;
-}
-.what-section {
+.what__section {
     width: 1600px;
     height: 648px;
     left: 0px;
@@ -440,14 +448,8 @@ height: 70px;
     margin-bottom: 30px;
     margin-top: 94px;
 }
-.product {
-    display: inline-block;
-    margin-right: 30px;
-    margin-left: 215px;
-}
-.product__image {
+.grid__image {
     flex-basis: calc(100% /3 - 16px);
-    min-width: 270px;
     margin-right: 8px;
     margin-left: 8px;
     margin-bottom: 16px;
@@ -461,9 +463,6 @@ height: 70px;
     text-align: center;
     margin-bottom: 50px;
     margin-left: auto;
-}
-.grid--three {
-   
 }
 .grid__item__heading {
     flex-basis: calc(100% /3 - 16px);
@@ -482,7 +481,6 @@ height: 70px;
 .grid {
    list-style: none;
    display: flex;
-   flex-wrap: wrap;
    justify-content: center;
    margin-left: 215px;
    margin-right: 215px;

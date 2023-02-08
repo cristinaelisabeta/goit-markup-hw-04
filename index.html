@@ -10,7 +10,6 @@
     </head>
     <body>
         <header class="page-header">  
-            <nav>
         <section class="section">
             <div class="container">
         <ul class="grid__logo"><a class="grid__logo__studio" href="WebStudio"></a>
@@ -18,26 +17,34 @@
                 </ul>
             </div>
         </section>
+        <nav>
         <section class="page__section__list">
             <div class="container">
-        <ul class="grid__item">
-                    <li class="grid__item__menu"><a class="grid__studio link1" href="studio">Studio</a></li>
-                    <li class="grid__item__menu"><a class="grid__portofolio link1" href="portofolio">Portofolio</a></li>
-                    <li class="grid__item__menu"><a class="grid__contacts link1" href="contacts">Contacts</a></li>
+        <ul class="grid__item__list unstyled-list">
+                    <li class="grid__item__menu"><a class="grid__studio link1 link" href="studio">Studio</a></li>
+                    <li class="grid__item__menu"><a class="grid__portofolio link1 link" href="portofolio">Portofolio</a></li>
+                    <li class="grid__item__menu"><a class="grid__contacts link1 link" href="contacts">Contacts</a></li>
         </ul> 
             </div>
         </section>
+    </nav>
         <section class="page__section__link">
             <div class="container__contacts">
-        <ul class="grid__item__contacts">
-                    <li class="grid__item__menu"><a class="grid__mail1 link1 link" href="info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="grid__item__menu"><a class="grid__tel1 link1 link" href="+1 212-772-4150">+1 212-772-4150</a></li>
-        </ul>
+                <ul class="grid__item__contacts unstyled-list">
+                    <li  class="grid__item__menu"><a class="grid__mail1 link1 link" href="mailto:info@devstudio.com">
+                        <svg class="header__icon" width="16" height="12">
+                          <use href="./images/icomoon/symbol-defs.svg#icon-mail"></use>
+                        </svg>info@devstudio.com</a>
+                    </li>
+                    <li class="grid__item__menu"><a class="grid__mail1 link1 link" href="tel:+12127724150">
+                        <svg class="header__icon" width="10" height="16">
+                          <use href="./images/icomoon/symbol-defs.svg#icon-tel"></use>
+                        </svg>+1 212-772-4150</a>
+                    </li>
+                  </ul>
             </div>
         </section>
-            </nav>
         </header>
-    </div> 
     <main>
         <div class="container">
             <section class="title-section">
@@ -57,7 +64,7 @@
             <div class="container__technology">
         <ul class="grid">
             <li class="grid__item">
-           <span class="grig__span">
+           <span class="grid__span">
              <svg class="svg">
              <use href="./images/icomoon/symbol-defs.svg#icon-antenna"></use>
              </svg>
@@ -70,7 +77,7 @@
                </p>
             </li>
             <li class="grid__item">
-                <span class="grig__span">
+                <span class="grid__span">
                  <svg class="svg">
                  <use href="./images/icomoon/symbol-defs.svg#icon-clock"></use>
                  </svg>
@@ -83,7 +90,7 @@
                 </p>
             </li>
             <li class="grid__item">
-                <span class="grig__span">
+                <span class="grid__span">
                 <svg class="svg">
                 <use href="./images/icomoon/symbol-defs.svg#icon-diagram"></use>
                 </svg>
@@ -96,7 +103,7 @@
                  </p>
             </li>
             <li class="grid__item">
-                <span class="grig__span">
+                <span class="grid__span">
                 <svg class="svg">
                 <use href="./images/icomoon/symbol-defs.svg#icon-astronaut"></use>
                 </svg>
@@ -111,25 +118,18 @@
         </ul>
         </div>
     </section> 
-
-        <section class="section">
+        <section class="what__section">
         <div class="container">
           <h3 class="section__heading">What we do</h3>
-            <ul class="grid grid--three">
+            <ul class="grid__heading">
                <li class="grid__item__heading">
-            <article class="product">
-            <img class="product__image" src="images/img2.png"/>
-            </article>
+            <img class="grid__image" height="294" width="370" src="images/img2.png"/>
             </li>
             <li class="grid__item__heading">
-            <article class="product">
-                <img class="product__image" height="294" width="370" src="images/img.png">
-            </article>
+            <img class="grid__image" height="294" width="370" src="images/img.png">
             </li> 
             <li class="grid__item__heading">
-            <article class="product">
-                <img class="product__image" height="294" width="370" src="images/img (1).png">
-            </article>
+            <img class="grid__image" height="294" width="370" src="images/img (1).png">
             </li> 
             </ul>
         </div>
