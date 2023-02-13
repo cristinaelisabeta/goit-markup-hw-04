@@ -407,8 +407,8 @@ margin-left: 330px;
     margin-bottom: 30px;
 }
 .svg {
-width: 70px;
-height: 70px;
+    width: 70px;
+    height: 70px;
 }
 .grid__title {
     display: inline-flex;
@@ -487,18 +487,6 @@ height: 70px;
    margin-bottom: 30px;
    margin-top: 94px;
 }
-
-.grid--four {
-
-}
-
-.grid--four .grid__item {
-flex-basis: calc(100% /4 - 16px);
-min-width: 140px;
-color: #212121;
-text-align: center;
-background-color: #F5F4FA;
-}
 .social-list {
     display: flex;
     justify-content: center;
@@ -510,26 +498,26 @@ background-color: #F5F4FA;
     fill: currentColor;
 }
 .social-link {
-background-color:#FFFFFF;
-border-radius: 50%;
-width: 44px;
-height: 44px;
-display: flex;
-justify-content: center;
-align-items: center;
-color: #AFB1B8;
+    background-color:#FFFFFF;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #AFB1B8;
 }
 .social-link:hover {
     color: #2196F3;
 }
-.our-section {
+.our__section {
     width: 1600px;
-    height: 648px;
+    height: 708px;
     left: 0px;
-    top: 1449px;
+    top: 1599px;
     display: inline-block;
 }
-.our {
+.section__heading {
     margin-top: 94;
     margin-bottom: 50px;
     font-family: roboto;
@@ -539,18 +527,40 @@ color: #AFB1B8;
     color: #212121;
     text-align: center; 
 }
-.christopher-section {
+.our__container {
     width: 270px;
     height: 368px;
     left: 215px;
     top: 1635px;
-    display:inline-block;
     margin-right: 30px;
     margin-left: 215px;
+    display: inline-block;
 }
-.christopher-image {
+.grid--four {
+
+}
+.grid--four .grid__item {
+    flex-basis: calc(100% /4 - 16px);
+    min-width: 140px;
+    color: #212121;
+    text-align: center;
+    background-color: #F5F4FA;
+    }
+.grid__team {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -16px;
+    margin-top: 0;
+}
+.grid__item__team {
     margin-bottom: 30px;
     border: 2px;
+    display: inline-block;
 }
 .christopher {
     margin-top: 0;
@@ -734,8 +744,7 @@ footer {
     line-height: 1.19;
     color: #FFFFFF;
     text-align: left;
-    margin-top: 24px;
-    margin-bottom: 25px;
+    margin-top: 60px;
 }
 .logo-highlight1 {
     color: #2196F3; 
@@ -746,7 +755,7 @@ footer {
     font-size: 14px;
     line-height: 1.14;
     color: #FFFFFF;
-    margin-top: 28px;
+    margin-top: 12px;
 }
 .mail {
     font-family: roboto;
@@ -762,32 +771,33 @@ footer {
     line-height: 1.14;
     color: rgba(255, 255, 255, 0.6);    
 }
+.adress-mail-tel {
+    margin-top: 28px;
+    margin-bottom: 30px;
+}
 .page-section2 {
     background-color: #2F303A;
 }
 .social-link1 {
-    background-color: #FFFFFF1A;
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     width: 44px;
     height: 44px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #000000;
 }
 .social-link1:hover {
     color: #2196F3;
 }
 .page-section-icons {
-margin-top: 75px;
 display: flex;
 }
 .main-menu-contacts-icons {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     gap: 10px;
     padding: 0px;
-    margin-top: 20px;
 }
 .section-icons {
     font-weight: 700;
@@ -796,5 +806,7 @@ display: flex;
     text-transform: uppercase;
     color: #FFFFFF;
     display: flex;
+    margin-top: 75px;
+    margin-bottom: 20px;
 }
 
