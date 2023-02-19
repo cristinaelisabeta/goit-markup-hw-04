@@ -69,7 +69,7 @@ img {
 .grid__item__menu {
     display: list-item;
 }
-.link1:hover {
+.link:hover {
     color: #2196F3;
 }
 .grid__studio {
@@ -96,7 +96,11 @@ img {
     display: flex;
     width: 16px;
     height: 12px; 
+    fill: currentColor;
 }
+.header__icon:hover {
+    color: #2196F3;
+ }
 .grid__portofolio {
     display: flex;
     margin-top: 32px;
@@ -523,6 +527,7 @@ margin-left: 330px;
 .social-icons {
     width: 44px;
     height: 44px;
+    fill: currentColor;
 }
 .social-link {
     background-color:#FFFFFF;
@@ -532,9 +537,9 @@ margin-left: 330px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #AFB1B8;
+    color: #FFFFFF;
 }
-.social-list:hover {
+.social-link:hover {
     color: #2196F3;
 }
 .our__section {
@@ -721,12 +726,12 @@ footer {
     gap: 10px;
 }
 .social-icons1 {
-    width: 20px;
-    height: 20px;
-    color: #2F303A;
+    width: 44px;
+    height: 44px;
+    fill: currentColor;
 }
 .social-link1 {
-    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     width: 44px;
     height: 44px;
